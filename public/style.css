@@ -43,6 +43,9 @@
 @media (min-resolution: 2dppx) {
   :root { --hair-w: 0.5px; }
 }
+@media (min-resolution: 3dppx) {
+  :root { --hair-w: 0.34px; }
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -152,7 +155,7 @@ main { flex: 1; padding-bottom: calc(var(--u) * 4); }
 .who-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; }
 .who-change {
   flex: none;
-  min-height: 40px;
+  min-height: 44px;
   padding: 0 calc(var(--u) * 3);
   font: inherit;
   font-weight: 600;

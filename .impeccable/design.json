@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T16:50:56.742Z",
+  "title": "Design System: Koris",
+  "extensions": {
+    "colorMeta": {
+      "madder": {
+        "role": "primary",
+        "displayName": "Madder Red",
+        "canonical": "oklch(46% 0.165 27)",
+        "dark": "oklch(60% 0.17 27)",
+        "tonalRamp": [
+          "oklch(15% 0.165 27)",
+          "oklch(26% 0.165 27)",
+          "oklch(37% 0.165 27)",
+          "oklch(48% 0.165 27)",
+          "oklch(59% 0.165 27)",
+          "oklch(70% 0.165 27)",
+          "oklch(82% 0.165 27)",
+          "oklch(95% 0.165 27)"
+        ],
+        "darkText": "oklch(72% 0.14 27)",
+        "darkHeader": "oklch(37% 0.13 26)",
+        "hex": "#a01f1e"
+      },
+      "madder-press": {
+        "role": "primary",
+        "displayName": "Pressed Madder",
+        "canonical": "oklch(39% 0.145 26)",
+        "dark": "oklch(67% 0.16 27)",
+        "tonalRamp": [
+          "oklch(15% 0.145 26)",
+          "oklch(26% 0.145 26)",
+          "oklch(37% 0.145 26)",
+          "oklch(48% 0.145 26)",
+          "oklch(59% 0.145 26)",
+          "oklch(70% 0.145 26)",
+          "oklch(82% 0.145 26)",
+          "oklch(95% 0.145 26)"
+        ]
+      },
+      "madder-tint": {
+        "role": "primary",
+        "displayName": "Madder Wash",
+        "canonical": "oklch(92% 0.03 25)",
+        "dark": "oklch(30% 0.06 25)",
+        "tonalRamp": [
+          "oklch(15% 0.03 25)",
+          "oklch(26% 0.03 25)",
+          "oklch(37% 0.03 25)",
+          "oklch(48% 0.03 25)",
+          "oklch(59% 0.03 25)",
+          "oklch(70% 0.03 25)",
+          "oklch(82% 0.03 25)",
+          "oklch(95% 0.03 25)"
+        ]
+      },
+      "ok": {
+        "role": "secondary",
+        "displayName": "Forest Green",
+        "canonical": "oklch(44% 0.1 150)",
+        "dark": "oklch(74% 0.13 150)",
+        "tonalRamp": [
+          "oklch(15% 0.1 150)",
+          "oklch(26% 0.1 150)",
+          "oklch(37% 0.1 150)",
+          "oklch(48% 0.1 150)",
+          "oklch(59% 0.1 150)",
+          "oklch(70% 0.1 150)",
+          "oklch(82% 0.1 150)",
+          "oklch(95% 0.1 150)"
+        ]
+      },
+      "linen": {
+        "role": "neutral",
+        "displayName": "Unbleached Linen",
+        "canonical": "oklch(95.5% 0.006 90)",
+        "dark": "oklch(19% 0.008 35)",
+        "tonalRamp": [
+          "oklch(15% 0.006 90)",
+          "oklch(26% 0.006 90)",
+          "oklch(37% 0.006 90)",
+          "oklch(48% 0.006 90)",
+          "oklch(59% 0.006 90)",
+          "oklch(70% 0.006 90)",
+          "oklch(82% 0.006 90)",
+          "oklch(95% 0.006 90)"
+        ],
+        "hex": "#f2f0ec"
+      },
+      "linen-2": {
+        "role": "neutral",
+        "displayName": "Linen Fold",
+        "canonical": "oklch(92.5% 0.009 85)",
+        "dark": "oklch(23.5% 0.01 35)",
+        "tonalRamp": [
+          "oklch(15% 0.009 85)",
+          "oklch(26% 0.009 85)",
+          "oklch(37% 0.009 85)",
+          "oklch(48% 0.009 85)",
+          "oklch(59% 0.009 85)",
+          "oklch(70% 0.009 85)",
+          "oklch(82% 0.009 85)",
+          "oklch(95% 0.009 85)"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Bleached Field",
+        "canonical": "oklch(98.5% 0.004 90)",
+        "dark": "oklch(16.5% 0.008 35)",
+        "tonalRamp": [
+          "oklch(15% 0.004 90)",
+          "oklch(26% 0.004 90)",
+          "oklch(37% 0.004 90)",
+          "oklch(48% 0.004 90)",
+          "oklch(59% 0.004 90)",
+          "oklch(70% 0.004 90)",
+          "oklch(82% 0.004 90)",
+          "oklch(95% 0.004 90)"
+        ]
+      },
+      "hair": {
+        "role": "neutral",
+        "displayName": "Thread Hair",
+        "canonical": "oklch(83% 0.012 70)",
+        "dark": "oklch(35% 0.012 35)",
+        "tonalRamp": [
+          "oklch(15% 0.012 70)",
+          "oklch(26% 0.012 70)",
+          "oklch(37% 0.012 70)",
+          "oklch(48% 0.012 70)",
+          "oklch(59% 0.012 70)",
+          "oklch(70% 0.012 70)",
+          "oklch(82% 0.012 70)",
+          "oklch(95% 0.012 70)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(22% 0.014 35)",
+        "dark": "oklch(94% 0.008 85)",
+        "tonalRamp": [
+          "oklch(15% 0.014 35)",
+          "oklch(26% 0.014 35)",
+          "oklch(37% 0.014 35)",
+          "oklch(48% 0.014 35)",
+          "oklch(59% 0.014 35)",
+          "oklch(70% 0.014 35)",
+          "oklch(82% 0.014 35)",
+          "oklch(95% 0.014 35)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Faded Ink",
+        "canonical": "oklch(43% 0.014 35)",
+        "dark": "oklch(76% 0.01 70)",
+        "tonalRamp": [
+          "oklch(15% 0.014 35)",
+          "oklch(26% 0.014 35)",
+          "oklch(37% 0.014 35)",
+          "oklch(48% 0.014 35)",
+          "oklch(59% 0.014 35)",
+          "oklch(70% 0.014 35)",
+          "oklch(82% 0.014 35)",
+          "oklch(95% 0.014 35)"
+        ]
+      },
+      "on-madder": {
+        "role": "neutral",
+        "displayName": "Unbleached on Madder",
+        "canonical": "oklch(97.5% 0.008 85)",
+        "dark": "oklch(15% 0.02 27)",
+        "tonalRamp": [
+          "oklch(15% 0.008 85)",
+          "oklch(26% 0.008 85)",
+          "oklch(37% 0.008 85)",
+          "oklch(48% 0.008 85)",
+          "oklch(59% 0.008 85)",
+          "oklch(70% 0.008 85)",
+          "oklch(82% 0.008 85)",
+          "oklch(95% 0.008 85)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Yes-count on the event page."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Event title on its own page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page titles."
+      },
+      "date": {
+        "displayName": "Date",
+        "purpose": "Day number in a row date block."
+      },
+      "section": {
+        "displayName": "Section",
+        "purpose": "Second-level headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Event titles in list rows."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text and inputs; ledes cap at 36ch."
+      },
+      "body-small": {
+        "displayName": "Body small",
+        "purpose": "Meta lines, band text, chips, hints, footer."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels and marks."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Month under a date number."
+      }
+    },
+    "fontFace": {
+      "family": "Schibsted Grotesk",
+      "source": "self-hosted variable woff2, weights 400-900, latin + latin-ext subsets",
+      "files": [
+        "/fonts/schibsted-grotesk-latin-wght-normal.woff2",
+        "/fonts/schibsted-grotesk-latin-ext-wght-normal.woff2"
+      ]
+    },
+    "shadows": [
+      {
+        "name": "row-rule",
+        "value": "inset 0 var(--hair-w) 0 var(--hair)",
+        "purpose": "Hairline above each list row after the first and above the footer."
+      },
+      {
+        "name": "unit-outline",
+        "value": "inset 0 0 0 var(--hair-w) var(--hair)",
+        "purpose": "Outline of an empty weave unit; removed when filled."
+      }
+    ],
+    "hairline": {
+      "name": "hair-w",
+      "value": "1px",
+      "dense": "0.5px at min-resolution 2dppx, 0.34px at 3dppx",
+      "purpose": "Width of every hairline rule."
+    },
+    "motion": [
+      {
+        "name": "state-change",
+        "value": "150ms ease-out",
+        "purpose": "Background, colour and border transitions on buttons, inputs, the disclosure chevron."
+      },
+      {
+        "name": "press",
+        "value": "translateY(1px)",
+        "purpose": "Button :active nudge."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition: none",
+        "purpose": "All transitions off under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "pair-stack",
+        "value": "max-width: 340px",
+        "purpose": "Date/time field pair collapses to one column."
+      },
+      {
+        "name": "gutter-wide",
+        "value": "min-width: 480px",
+        "purpose": "Side gutter grows from 16px to 24px."
+      },
+      {
+        "name": "container",
+        "value": "40rem",
+        "purpose": "Max width of the single column."
+      },
+      {
+        "name": "dense-hairline",
+        "value": "min-resolution: 2dppx",
+        "purpose": "Hairlines drop to 0.5px."
+      }
+    ],
+    "themes": {
+      "mode": "prefers-color-scheme (light and dark), no manual toggle",
+      "themeColor": {
+        "light": "#a01f1e",
+        "dark": "#761617"
+      }
+    },
+    "weave": {
+      "unitsPerRowMax": 25,
+      "unit": {
+        "width": "max 24px",
+        "height": "12px",
+        "gap": "2px",
+        "rowGap": "5px",
+        "eyeInset": "3px"
+      },
+      "unitBig": {
+        "width": "max 36px",
+        "height": "20px",
+        "gap": "3px",
+        "rowGap": "6px",
+        "eyeInset": "5px"
+      },
+      "selvage": {
+        "tile": "16px x 10px",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpath fill-rule='evenodd' d='M0 0h16v6l-8 4-8-4z M8 1.5 11 4 8 6.5 5 4z'/%3E%3C/svg%3E\") repeat-x 0 0 / 16px 10px"
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Default button: Ink stroke on linen, Linen Fold on hover.",
+      "html": "<button class=\"ds-btn\">Uz sākumu</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 16px;font:650 1.0625rem/1.2 'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif;color:var(--ink, #211816);background:transparent;border:1.5px solid var(--ink, #211816);border-radius:var(--r, 3px);cursor:pointer;transition:background-color 150ms ease-out,color 150ms ease-out,border-color 150ms ease-out}.ds-btn:hover{background:var(--linen-2, #e9e6e0)}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:2px solid var(--madder, #a01f1e);outline-offset:2px}.ds-btn svg{width:18px;height:18px}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "One madder action per form.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Turpināt</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 16px;font:650 1.0625rem/1.2 'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif;color:var(--ink, #211816);background:transparent;border:1.5px solid var(--ink, #211816);border-radius:var(--r, 3px);cursor:pointer;transition:background-color 150ms ease-out,color 150ms ease-out,border-color 150ms ease-out}.ds-btn:hover{background:var(--linen-2, #e9e6e0)}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:2px solid var(--madder, #a01f1e);outline-offset:2px}.ds-btn svg{width:18px;height:18px}.ds-btn-primary{background:var(--madder, #a01f1e);border-color:var(--madder, #a01f1e);color:var(--on-madder, #f9f6f1)}.ds-btn-primary:hover{background:var(--madder-press, #811215);border-color:var(--madder-press, #811215)}"
+    },
+    {
+      "name": "Vote Pair",
+      "kind": "custom",
+      "refersTo": "vote-yes-pressed",
+      "description": "Two equal full-width answers; pressed Būšu fills madder, pressed Nebūšu fills ink.",
+      "html": "<div class=\"ds-vote\"><button class=\"ds-btn\" aria-pressed=\"true\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"m3 8.5 3.2 3L13 4.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Būšu</button><button class=\"ds-btn\" aria-pressed=\"false\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M4 8h8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>Nebūšu</button></div>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 16px;font:650 1.0625rem/1.2 'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif;color:var(--ink, #211816);background:transparent;border:1.5px solid var(--ink, #211816);border-radius:var(--r, 3px);cursor:pointer;transition:background-color 150ms ease-out,color 150ms ease-out,border-color 150ms ease-out}.ds-btn:hover{background:var(--linen-2, #e9e6e0)}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:2px solid var(--madder, #a01f1e);outline-offset:2px}.ds-btn svg{width:18px;height:18px}.ds-vote{display:grid;grid-template-columns:1fr 1fr;gap:8px;max-width:360px}.ds-vote .ds-btn:first-child[aria-pressed=true]{background:var(--madder, #a01f1e);border-color:var(--madder, #a01f1e);color:var(--on-madder, #f9f6f1)}.ds-vote .ds-btn:last-child[aria-pressed=true]{background:var(--ink, #211816);border-color:var(--ink, #211816);color:var(--linen, #f2f0ec)}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Bleached field, hairline stroke, madder on focus.",
+      "html": "<label class=\"ds-field\"><span>Vārds un uzvārds</span><input placeholder=\"Anna Bērziņa\"></label>",
+      "css": ".ds-field{display:grid;gap:6px;max-width:28rem;font-family:'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif;color:var(--ink, #211816)}.ds-field span{font-size:.9375rem;font-weight:650}.ds-field input{min-height:48px;padding:10px 12px;font:400 1.0625rem/1.5 'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif;color:var(--ink, #211816);background:var(--field, #fbfaf7);border:1.5px solid var(--hair, #ccc6bf);border-radius:var(--r, 3px);transition:border-color 150ms ease-out}.ds-field input::placeholder{color:var(--ink-2, #574d4b);opacity:1}.ds-field input:hover{border-color:color-mix(in oklch, var(--hair, #ccc6bf) 50%, var(--ink-2, #574d4b))}.ds-field input:focus-visible{outline:2px solid var(--madder, #a01f1e);outline-offset:0;border-color:var(--madder, #a01f1e)}"
+    },
+    {
+      "name": "Header Band",
+      "kind": "nav",
+      "refersTo": "header",
+      "description": "Madder band with choir name, member name, and the woven selvage below.",
+      "html": "<header class=\"ds-top\"><div class=\"in\"><a class=\"brand\" href=\"#\">Koris</a><span class=\"who\"><b>Anna Bērziņa</b><button>Cits vārds</button></span></div></header>",
+      "css": ".ds-top{position:relative;background:var(--madder, #a01f1e);color:var(--on-madder, #f9f6f1);font-family:'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif;margin-bottom:20px}.ds-top::after{content:'';position:absolute;inset:100% 0 auto;height:10px;background:var(--madder, #a01f1e);-webkit-mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpath fill-rule='evenodd' d='M0 0h16v6l-8 4-8-4z M8 1.5 11 4 8 6.5 5 4z'/%3E%3C/svg%3E\") repeat-x 0 0 / 16px 10px;mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpath fill-rule='evenodd' d='M0 0h16v6l-8 4-8-4z M8 1.5 11 4 8 6.5 5 4z'/%3E%3C/svg%3E\") repeat-x 0 0 / 16px 10px}.ds-top .in{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:56px;padding:0 16px}.ds-top .brand{color:inherit;text-decoration:none;font-size:1.25rem;font-weight:800;letter-spacing:-.015em}.ds-top .who{display:flex;align-items:center;gap:12px;font-size:.9375rem}.ds-top .who b{font-weight:600}.ds-top button{min-height:44px;padding:0 12px;font:600 .9375rem 'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif;color:inherit;background:transparent;border:1px solid color-mix(in oklch, var(--on-madder, #f9f6f1) 50%, transparent);border-radius:var(--r, 3px);cursor:pointer;transition:background-color 150ms ease-out}.ds-top button:hover{background:color-mix(in oklch, var(--on-madder, #f9f6f1) 14%, transparent)}.ds-top button:focus-visible{outline:2px solid var(--on-madder, #f9f6f1);outline-offset:2px}"
+    },
+    {
+      "name": "Woven Band",
+      "kind": "custom",
+      "refersTo": "weave-unit",
+      "description": "One unit per singer needed; madder with a linen eye when answered, forest green when the minimum is reached.",
+      "html": "<div class=\"ds-band\"><div class=\"w\"><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><p><span><b>4</b> no 20</span><span class=\"st\">Trūkst vēl 16</span></p></div><div class=\"ds-band full\" style=\"margin-top:16px\"><div class=\"w\"><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i></div><p><span><b>7</b> būs</span><span class=\"ok\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"m3 8.5 3.2 3L13 4.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Notiks</span></p></div>",
+      "css": ".ds-band{font-family:'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif;color:var(--ink, #211816)}.ds-band .w{display:flex;gap:2px;height:12px}.ds-band i{position:relative;flex:1 1 0;min-width:0;max-width:24px;background:var(--linen-2, #e9e6e0);box-shadow:inset 0 0 0 var(--hair-w, 1px) var(--hair, #ccc6bf)}.ds-band i.on{background:var(--madder, #a01f1e);box-shadow:none}.ds-band.full i.on{background:var(--ok, #206133)}.ds-band i.on::after{content:'';position:absolute;top:3px;bottom:3px;left:50%;aspect-ratio:1;max-width:calc(100% - 4px);transform:translateX(-50%);background:var(--linen, #f2f0ec);clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%)}.ds-band p{display:flex;gap:4px 8px;align-items:baseline;margin:8px 0 0;font-size:.9375rem}.ds-band b{font-weight:700;font-variant-numeric:tabular-nums}.ds-band .st{color:var(--ink-2, #574d4b)}.ds-band .ok{display:inline-flex;align-items:center;gap:4px;font-weight:700;color:var(--ok, #206133)}.ds-band svg{width:16px;height:16px}"
+    },
+    {
+      "name": "Member Mark",
+      "kind": "chip",
+      "refersTo": "mark-yes",
+      "description": "The member’s own answer on an answered row.",
+      "html": "<span class=\"ds-mark yes\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"m3 8.5 3.2 3L13 4.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Būšu</span> <span class=\"ds-mark no\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M4 8h8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>Nebūšu</span>",
+      "css": ".ds-mark{display:inline-flex;align-items:center;gap:4px;padding:2px 8px;font:650 .9375rem/1.5 'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif;border-radius:var(--r, 3px)}.ds-mark svg{width:16px;height:16px}.ds-mark.yes{background:var(--madder-tint, #f8dddb);color:var(--madder, #a01f1e)}.ds-mark.no{background:var(--linen-2, #e9e6e0);color:var(--ink-2, #574d4b)}"
+    },
+    {
+      "name": "Name Chips",
+      "kind": "chip",
+      "refersTo": "name-chip",
+      "description": "Who answered, under Būs / Nebūs.",
+      "html": "<ul class=\"ds-names\"><li>Anna Bērziņa</li><li>Jānis Kalniņš</li><li>Līga Ozola</li></ul>",
+      "css": ".ds-names{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none;font-family:'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif}.ds-names li{padding:4px 10px;font-size:.9375rem;color:var(--ink, #211816);background:var(--linen-2, #e9e6e0);border-radius:var(--r, 3px)}"
+    },
+    {
+      "name": "Event Row",
+      "kind": "card",
+      "refersTo": "weave-unit",
+      "description": "Hairline-ruled list row: date block, title, meta, band, answer.",
+      "html": "<div class=\"ds-row\"><div class=\"d\"><b>8</b><span>nov</span></div><div><h3><a href=\"#\">Koncerts Doma baznīcā</a></h3><p class=\"m\">Svētdien · 16:00 <span class=\"pl\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M8 15s5-4.6 5-8.5A5 5 0 0 0 3 6.5C3 10.4 8 15 8 15Zm0-6.5a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z\" fill=\"currentColor\"/></svg>Rīgas Doms</span></p><div class=\"ds-band\"><div class=\"w\"><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><p><span><b>16</b> no 24</span><span class=\"st\">Trūkst vēl 8</span></p></div></div></div>",
+      "css": ".ds-band{font-family:'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif;color:var(--ink, #211816)}.ds-band .w{display:flex;gap:2px;height:12px}.ds-band i{position:relative;flex:1 1 0;min-width:0;max-width:24px;background:var(--linen-2, #e9e6e0);box-shadow:inset 0 0 0 var(--hair-w, 1px) var(--hair, #ccc6bf)}.ds-band i.on{background:var(--madder, #a01f1e);box-shadow:none}.ds-band.full i.on{background:var(--ok, #206133)}.ds-band i.on::after{content:'';position:absolute;top:3px;bottom:3px;left:50%;aspect-ratio:1;max-width:calc(100% - 4px);transform:translateX(-50%);background:var(--linen, #f2f0ec);clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%)}.ds-band p{display:flex;gap:4px 8px;align-items:baseline;margin:8px 0 0;font-size:.9375rem}.ds-band b{font-weight:700;font-variant-numeric:tabular-nums}.ds-band .st{color:var(--ink-2, #574d4b)}.ds-band .ok{display:inline-flex;align-items:center;gap:4px;font-weight:700;color:var(--ok, #206133)}.ds-band svg{width:16px;height:16px}.ds-row{display:grid;grid-template-columns:3rem 1fr;gap:0 16px;padding:20px 0;box-shadow:inset 0 var(--hair-w, 1px) 0 var(--hair, #ccc6bf);font-family:'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif;color:var(--ink, #211816)}.ds-row .d{padding-top:2px;text-align:center;line-height:1}.ds-row .d b{display:block;font-size:1.625rem;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}.ds-row .d span{display:block;margin-top:4px;font-size:.8125rem;font-weight:650;color:var(--ink-2, #574d4b)}.ds-row h3{margin:0;font-size:1.1875rem;line-height:1.25;font-weight:700}.ds-row h3 a{color:inherit;text-decoration:none}.ds-row h3 a:hover{text-decoration:underline}.ds-row .m{display:flex;flex-wrap:wrap;gap:4px 12px;margin:4px 0 12px;font-size:.9375rem;color:var(--ink-2, #574d4b)}.ds-row .pl{display:inline-flex;align-items:center;gap:4px}.ds-row .pl svg{width:14px;height:14px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Woven Belt",
+    "overview": "Koris treats attendance as cloth being made. Every event carries a band of units, one per singer the event needs, and each \"Būšu\" weaves one more unit in madder until the band closes at its minimum and turns forest green. The count is always exact (\"4 no 20\", \"7 būs\"); there is no percentage anywhere in the system. The band is the one image the whole product is built around, and everything else stays plain so it can be read on sight.\n\nThe material is a Latvian woven belt (josta) laid on unbleached linen: a linen ground, near-black ink, and madder red, with forest green held back for the moment an event is certain. The madder header is a strip of that belt, and its lower edge is cut into a woven selvage of points and diamond eyes. One sturdy grotesque sets everything from the 44px tally numeral to the 13px month under a date. Surfaces are flat cloth: no cards, no shadows, only hairline rules between rows and quiet linen panels for asides.\n\nThe register is Operate: dense enough to answer three events without scrolling far, large enough for older singers on phones (48px minimum targets, 17px body). Light and dark themes follow the device; dark mode turns the linen to a warm near-black and lifts the madder so it still reads as dye, not warning.",
+    "keyCharacteristics": [
+      "Three values (linen, ink, madder) plus forest green reserved for the reached state.",
+      "The woven band: one unit per singer, filled units carry a linen diamond eye, long bands wrap into equal rows of at most 25.",
+      "A madder header band ending in a woven selvage strip.",
+      "One grotesque, Schibsted Grotesk, at every level; tabular numerals for every count.",
+      "A 4px weave-pick spacing grid; one 3px corner; hairline rules instead of borders and shadows.",
+      "Status never by colour alone: every state pairs its colour with a word and an icon."
+    ],
+    "rules": [
+      {
+        "name": "The Three Values Rule",
+        "body": "The palette is linen, ink and madder. Linen Fold, Bleached Field, Faded Ink and Madder Wash are shades of those three, never new hues. Adding a blue, a yellow or a grey with its own temperature breaks the cloth.",
+        "section": "colors"
+      },
+      {
+        "name": "The Notiks Green Rule",
+        "body": "Forest green appears only on a band that has reached its minimum and on the \"Notiks\" status beside it. Never on buttons, links, success messages or confirmations; those stay madder or linen.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Grotesque Rule",
+        "body": "Every level, from the tally numeral to the month caption, is Schibsted Grotesk. No second face, no system display face, no monospace for numbers; counts get tabular figures instead.",
+        "section": "typography"
+      },
+      {
+        "name": "The Exact Count Rule",
+        "body": "Counts are written as numbers of people: \"4 no 20\", \"7 būs\", \"Trūkst vēl 16\". Never a percentage, never a ratio bar, and every count beside a heading is a bare Faded Ink numeral at 0.8em and 600.",
+        "section": "typography"
+      },
+      {
+        "name": "The Weave-Pick Rule",
+        "body": "Every margin, padding and gap between components is a multiple of 4px. The only exceptions are the woven band's own geometry (units, gaps and the header selvage are drawn in fixed pixels) and half-picks inside chips and fields.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Cloth Rule",
+        "body": "Nothing floats. No drop shadows, no offset shadows, no blur. A surface is separated by a tone of linen or a hairline, never by lift.",
+        "section": "elevation"
+      },
+      {
+        "name": "The 3px Rule",
+        "body": "One radius. Nothing is pill-shaped and nothing is rounder than 3px; weave units take no radius at all.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do show attendance as the woven band: one unit per singer needed, filled in Madder, closed in Forest Green at the minimum.",
+      "Do write counts as people (\"4 no 20\", \"Trūkst vēl 16\") in tabular figures.",
+      "Do keep every gap a multiple of 4px and every corner at 3px.",
+      "Do pair every status colour with a word and an inline SVG icon (\"Notiks\" with a check, \"Būšu\" with a check, \"Nebūšu\" with a dash).",
+      "Do keep answer buttons and form controls at 48px high (56px on the event page) and small action buttons and row actions at 44px.",
+      "Do separate rows with the inset hairline, and asides with a Linen Fold panel."
+    ],
+    "donts": [
+      "Don't draw a percentage, a progress bar or a grey RSVP card; that is the category default this system refuses.",
+      "Don't use Forest Green anywhere but a reached band and its \"Notiks\" status.",
+      "Don't add a hue outside linen, ink and madder, or tints of them.",
+      "Don't add a second typeface, a system display face, or uppercase letter-spaced labels above headings.",
+      "Don't use drop shadows or offset shadows, gradients, gradient text, or coloured side stripes on panels.",
+      "Don't box event rows into cards or round anything past 3px.",
+      "Don't use emoji or text glyphs as icons; icons are inline SVG in currentColor."
+    ]
+  }
+}
