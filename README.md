@@ -8,6 +8,8 @@ A very simple event attendance app for a choir, in Latvian.
 - Opening any link also lists every other upcoming event the person hasn't answered yet.
 - Installable on iPhone and Android home screens, with push notifications.
 
+> **Status:** the code is complete and tested; deployment to a server is not finished yet. The step-by-step finish checklist is in [CLAUDE.md](CLAUDE.md).
+
 ## How people are remembered
 
 A name is entered once. After that it's remembered two ways:
