@@ -62,12 +62,23 @@ const count = (ev) => ev.yes >= ev.min_yes
   ? html`<b class="num">${ev.yes}</b> būs`
   : html`<b class="num">${ev.yes}</b> no ${ev.min_yes}`;
 
+const UNITS_PER_ROW = 25;
+
 function band(ev, { big = false } = {}) {
-  const units = [];
-  for (let i = 0; i < ev.min_yes; i++) units.push(i < ev.yes ? '<i class="on"></i>' : '<i></i>');
+  // Long bands wrap into equal rows; the last row is padded so every unit keeps the same width.
+  const rows = Math.ceil(ev.min_yes / UNITS_PER_ROW);
+  const perRow = Math.ceil(ev.min_yes / rows);
+  let weave = '';
+  for (let r = 0; r < rows; r++) {
+    let row = '';
+    for (let i = r * perRow; i < (r + 1) * perRow; i++) {
+      row += i >= ev.min_yes ? '<i class="pad"></i>' : i < ev.yes ? '<i class="on"></i>' : '<i></i>';
+    }
+    weave += `<div class="weave">${row}</div>`;
+  }
   return html`
     <div class="band${big ? ' band-big' : ''}${ev.yes >= ev.min_yes ? ' is-full' : ''}">
-      <div class="weave" role="img" aria-label="Būs ${ev.yes} no vajadzīgajiem ${ev.min_yes}">${raw(units.join(''))}</div>
+      <div class="weaves" role="img" aria-label="Būs ${ev.yes} no vajadzīgajiem ${ev.min_yes}">${raw(weave)}</div>
       ${!big && html`
         <p class="band-text"><span>${count(ev)}</span> ${status(ev)}</p>`}
     </div>`;
@@ -142,7 +153,7 @@ export function layout({ title, choir, member, body, director = false, vapidKey 
       ${member && html`
         <form method="post" action="/cits" class="who">
           <span class="who-name">${member.name}</span>
-          <button class="who-change" title="Ja šis neesi tu, ievadi savu vārdu">Mainīt</button>
+          <button class="who-change" title="Ja šis neesi tu, ievadi savu vārdu">Cits vārds</button>
         </form>`}
     </div>
   </header>
@@ -321,10 +332,10 @@ function eventForm({ action, values, error, submit, cancel }) {
     </form>`;
 }
 
-function shareBox(url) {
+function shareBox(url, { field = true } = {}) {
   return html`
     <div class="share">
-      <input class="share-url" value="${url}" readonly aria-label="Pasākuma saite">
+      ${field && html`<input class="share-url" value="${url}" readonly aria-label="Pasākuma saite">`}
       <button type="button" class="btn btn-small" data-copy="${url}">Kopēt saiti</button>
       <button type="button" class="btn btn-small" data-share="${url}" hidden>Dalīties</button>
     </div>`;
@@ -333,8 +344,8 @@ function shareBox(url) {
 export function director({ upcoming, past, today, origin, created, reminded, values, error }) {
   const row = (e, isPast) => eventRow(e, today, {
     actions: html`
-      ${!isPast && shareBox(`${origin}/p/${e.id}`)}
       <div class="row-actions">
+        ${!isPast && shareBox(`${origin}/p/${e.id}`, { field: false })}
         ${!isPast && html`
           <form method="post" action="/vaditajs/p/${e.id}/atgadinat">
             <button class="link">${icon.bell}Atgādināt neatbildējušajiem</button>
