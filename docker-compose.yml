@@ -1,0 +1,35 @@
+# Koris + Caddy. Caddy gets and renews Let's Encrypt certificates automatically.
+# Usage: copy .env.example to .env, fill it in, then `docker compose up -d`.
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DB_FILE: /data/koris.db
+      TRUST_PROXY: "1"
+      BASE_URL: https://${DOMAIN}
+    volumes:
+      - koris-data:/data
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    environment:
+      DOMAIN: ${DOMAIN}
+      ACME_EMAIL: ${ACME_EMAIL}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      - app
+
+volumes:
+  koris-data:
+  caddy-data:
+  caddy-config:
