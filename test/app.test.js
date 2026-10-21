@@ -106,7 +106,7 @@ test('unknown device is recognised by IP; the cookie wins when people share Wi-F
   await second('/vards', { form: { name: 'Otrais Dziedātājs' } });
   assert.match((await first('/')).text, /Pirmais Dziedātājs/);
   assert.match((await second('/')).text, /Otrais Dziedātājs/);
-  // "Mainīt" forgets this device.
+  // "Cits vārds" forgets this device.
   await second('/cits', { form: {} });
   assert.match((await second('/')).text, /Kā tevi sauc/);
 });
@@ -150,4 +150,12 @@ test('PWA files are served', async () => {
   assert.equal(manifest.display, 'standalone');
   assert.equal((await b('/sw.js')).status, 200);
   assert.equal((await b('/icons/icon-192.png')).status, 200);
+});
+
+test('long bands wrap into equal rows of woven units', async () => {
+  const d = await director();
+  const id = await createEvent(d, { title: 'Dziesmu svētki', date: future(30), min_yes: '60' });
+  const text = (await d(`/p/${id}`)).text.split('</article>')[0];
+  assert.equal(text.match(/<div class="weave">/g).length, 3);
+  assert.equal(text.match(/<i><\/i>/g).length, 60);
 });
