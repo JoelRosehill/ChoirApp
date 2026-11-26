@@ -1,6 +1,19 @@
-# Koris
+<h1 align="center">Koris</h1>
 
-A very simple event attendance app for a choir, in Latvian.
+<p align="center">
+  <em>Event attendance for a choir: one link per event, no accounts, no passwords.</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/node-22.5%2B-3c873a?style=flat-square&labelColor=0a0a0a&logo=node.js&logoColor=white">
+  <img src="https://img.shields.io/badge/sqlite-built%20in-003b57?style=flat-square&labelColor=0a0a0a&logo=sqlite&logoColor=white">
+  <img src="https://img.shields.io/badge/pwa-installable-5a0fc8?style=flat-square&labelColor=0a0a0a">
+  <img src="https://img.shields.io/badge/push-web%20push-c89b6a?style=flat-square&labelColor=0a0a0a">
+</p>
+
+---
+
+Event attendance for a choir, in Latvian. One shared link per event, a name typed once, and a tally that updates itself.
 
 - **The director** creates an event (title, date, optional time, optional place) with a **minimum number of singers** needed for it to take place, then shares the link in the choir chat.
 - **Singers** open the link, type their name once and tap **Būšu** or **Nebūšu**. No account, no password.
